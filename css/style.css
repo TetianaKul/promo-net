@@ -1,0 +1,170 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    position: relative;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    padding: 160px 50px;
+    font-weight: bold;
+    border-top: 15px solid #001c32;
+}
+
+.hed {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.pict {
+    min-height: 200px;
+    width: 200px;
+    background-image: url(../images/8.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.main-left,
+.main-right {
+    margin: 50px auto;
+}
+
+.listt li::before {
+    content: "\2713";
+    margin: 7px;
+}
+
+.blue-row {
+    background-color: #001c32;
+    padding: 2%;
+}
+
+h6 {
+    font-size: 1.4rem;
+}
+
+.ico-light {
+    font-size: 4rem;
+    color: #006090;
+    /*    border: 2px solid #fff;*/
+    /*    transition: all  ease 2s;*/
+    padding: 20px;
+    border-radius: 200px;
+}
+
+.ico-light:hover {
+    border: 2px solid #fff;
+    transition: all ease 2s;
+}
+
+.why {
+    padding: 30px;
+}
+
+.blue-row h6 {
+    font-size: 1.2rem;
+}
+
+#head-butt {
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: 300;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+.ico-dark {
+    font-size: 4rem;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    line-height: 35px;
+    font-size: 1.4rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.shop {
+    border: 5px solid #90caf9;
+    margin: 10px auto;
+}
+
+.social-ico {
+    font-size: 0.9rem;
+    bottom: -5px;
+}
+
+.blue-row-who {
+    background-color: #001c32;
+    padding: 2%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pict-who1,
+.pict-who2 {
+    min-height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.pict-who1 {
+    background-image: url(../images/resume.jpg);
+}
+
+.pict-who2 {
+    background-image: url(../images/resume2.jpeg);
+}
+
+.number {
+    font-size: 7rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 5px;
+}
+
+.can li::before {
+    content: "\2192";
+    margin: 8px;
+}
+
+.can {
+    font-size: 1.1rem;
+    line-height: 160%;
+}
+
+.number:hover {
+    content: "";
+    color: orangered;
+}
+
+#done-butt {
+    width: 250px;
+    height: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-top: 15px;
+}
+
+.agree {
+    font-size: 0.7rem;
+}
+
+.qest {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+ul.interes li::before {
+    content: "- ";
+}
+
+strong {
+    font-weight: 700;
+}
